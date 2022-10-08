@@ -1,0 +1,31 @@
+Genre
+	Instrument
+		<string> <number>.wav
+		
+	BPM.inf (inside of file is below, second set of scale letters from a diff file)
+		[Tempo] BPM=80
+		
+		[HarmonyTable]
+		Scale=a		C
+		
+		Sample1=a	C
+		Sample2=B	d
+		Sample3=C	e
+		Sample4=d	F
+		Sample5=e	G
+		Sample6=F	a
+		Sample7=G	B
+		
+----
+
+Swift Objects?
+
+Genre								Instrument:
+	String: name						name: string (all text, minus number)
+	volume: number						number: number (ties to sample)
+	tempo: number						location: string (file path)
+	scale: note enum (a-G)				liked: bool
+	sample[number: note]				date liked: date
+	liked: bool							length: number (seconds)
+	date liked: date					
+	date scanned: date					

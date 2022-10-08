@@ -1,0 +1,4 @@
+1) try and identify what the k_ w_ o_ on some files mean, if can't then simply strip them off
+2) scan folder for genres, then spin of threads to scan instruments, then tracks
+3) browser should provide filter down by default of genre, optional filter trackname
+4) ...
