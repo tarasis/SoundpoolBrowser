@@ -28,4 +28,8 @@ Genre								Instrument:
 	sample[number: note]				date liked: date
 	liked: bool							length: number (seconds)
 	date liked: date					scale: note enum
-	date scanned: date					
+	date scanned: date					samples: [Sample]
+	
+Category: 	
+	name: String
+	instruments: [Instrument]		

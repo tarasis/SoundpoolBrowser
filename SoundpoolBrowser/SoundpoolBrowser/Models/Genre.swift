@@ -20,6 +20,8 @@ import Foundation
  */
 
 struct Genre {
+    var id: UUID
+
     var name: String
     var volumeNumber: Int
     var tempo: Int

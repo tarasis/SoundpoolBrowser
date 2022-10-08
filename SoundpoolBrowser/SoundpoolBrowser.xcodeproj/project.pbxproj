@@ -19,6 +19,7 @@
 		E2D9A8F828F2118D00519159 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F728F2118D00519159 /* Brain.swift */; };
 		E2D9A8FA28F21B0B00519159 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F928F21B0B00519159 /* Category.swift */; };
 		E2D9A8FD28F2207B00519159 /* Waveform in Frameworks */ = {isa = PBXBuildFile; productRef = E2D9A8FC28F2207B00519159 /* Waveform */; };
+		E2D9A8FF28F2242400519159 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8FE28F2242400519159 /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E2D9A8F528F2104C00519159 /* FileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileScanner.swift; sourceTree = "<group>"; };
 		E2D9A8F728F2118D00519159 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		E2D9A8F928F21B0B00519159 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E2D9A8FE28F2242400519159 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				E2D9A8F128F20DF500519159 /* Scale.swift */,
 				E2D9A8F728F2118D00519159 /* Brain.swift */,
 				E2D9A8F928F21B0B00519159 /* Category.swift */,
+				E2D9A8FE28F2242400519159 /* Sample.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				E2D9A8F828F2118D00519159 /* Brain.swift in Sources */,
 				E2D9A8DD28F20AF200519159 /* ContentView.swift in Sources */,
 				E2D9A8DB28F20AF200519159 /* SoundpoolBrowserApp.swift in Sources */,
+				E2D9A8FF28F2242400519159 /* Sample.swift in Sources */,
 				E2D9A8FA28F21B0B00519159 /* Category.swift in Sources */,
 				E2D9A8F628F2104C00519159 /* FileScanner.swift in Sources */,
 				E2D9A8F228F20DF500519159 /* Scale.swift in Sources */,

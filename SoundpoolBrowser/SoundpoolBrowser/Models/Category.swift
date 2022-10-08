@@ -8,6 +8,7 @@
 import Foundation
 
 struct Category {
+    var id: UUID
     var name: String
     var instruments: [Instrument]
 }

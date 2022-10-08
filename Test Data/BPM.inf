@@ -1,0 +1,13 @@
+[Tempo]
+BPM=125
+
+[HarmonyTable]
+Scale=C
+
+Sample1=C
+Sample2=d
+Sample3=e
+Sample4=F
+Sample5=G
+Sample6=a
+Sample7=B

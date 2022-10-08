@@ -39,3 +39,12 @@ Other file examples of files ...
 'Beige Bass 6.wav'	   'Gamboge Cello 4.wav'      'Limerick ViolinsB 2.wav'  'Orange Basses 7.wav'	 'Orchid Violins 5.wav'     'Viridian Violins 3.wav'
 'Beige Bass 7.wav'	   'Gamboge Cello 5.wav'      'Limerick ViolinsB 3.wav'  'Orange Strings 1.wav'  'Orchid Violins 6.wav'     'Viridian Violins 4.wav'
 'Beige StingsB 1.wav'  'Gamboge Cello 6.wav'      'Limerick ViolinsB 4.wav'  'Orange Strings 2.wav'  'Orchid Violins 7.wav'     'Viridian Violins 5.wav'
+
+...
+
+So I would see it as
+	MovieScore
+		[Vol 1, Vol 2, Vol 3, ...]
+			Vol 1 [Bass, Brass, Drums, Synth, Wind]
+				Bass [Beige Bass, Gamboge BassA, Gamboge Cello, Limerick ViolinsA, Orange Basses, Orange Strings, ....]
+					Beige Bass [ Sample 1, Sample 2, Sample 3, Sample 4, Sample 5, Sample 6, Sample 7]

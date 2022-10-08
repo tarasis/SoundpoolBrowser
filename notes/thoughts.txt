@@ -1,7 +1,8 @@
 1) try and identify what the k_ w_ o_ on some files mean, if can't then simply strip them off
 2) scan folder for genres, then spin of threads to scan instruments, then tracks
 3) browser should provide filter down by default of genre, optional filter trackname
-4) ...
+4) be able to drag sample into Garageband / Logic
+5) 
 
 ---
 
@@ -9,3 +10,18 @@ show waveform? https://www.audiokit.io/AudioKitUI/documentation/audiokitui/wavef
 
 https://www.audiokit.io/Waveform/documentation/waveform
 https://github.com/AudioKit/Waveform/
+
+---
+
+Image names: 
+	music.note.house (for top of tree / genre)
+	music.note.house.fill
+	music.note (for sample)
+	music.note.list (for category)
+	
+	I like palette rendering for .house .note .list
+	
+---
+
+what happens if there are duplicate file names between say Vol 1 and Vol 12 of one Genre, and Vol 3 of a difference Genre?
+Treat each as unique. So add id.
