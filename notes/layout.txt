@@ -27,5 +27,5 @@ Genre								Instrument:
 	scale: note enum (a-G)				liked: bool
 	sample[number: note]				date liked: date
 	liked: bool							length: number (seconds)
-	date liked: date					
+	date liked: date					scale: note enum
 	date scanned: date					

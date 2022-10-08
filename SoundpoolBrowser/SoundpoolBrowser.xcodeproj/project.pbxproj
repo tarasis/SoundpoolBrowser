@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D9A8DB28F20AF200519159 /* SoundpoolBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8DA28F20AF200519159 /* SoundpoolBrowserApp.swift */; };
+		E2D9A8DD28F20AF200519159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8DC28F20AF200519159 /* ContentView.swift */; };
+		E2D9A8DF28F20AF300519159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D9A8DE28F20AF300519159 /* Assets.xcassets */; };
+		E2D9A8E228F20AF300519159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D9A8E128F20AF300519159 /* Preview Assets.xcassets */; };
+		E2D9A8EC28F20CF200519159 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8EB28F20CF200519159 /* Genre.swift */; };
+		E2D9A8EE28F20D3B00519159 /* HarmonyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8ED28F20D3B00519159 /* HarmonyTable.swift */; };
+		E2D9A8F028F20D5300519159 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8EF28F20D5300519159 /* Instrument.swift */; };
+		E2D9A8F228F20DF500519159 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F128F20DF500519159 /* Scale.swift */; };
+		E2D9A8F628F2104C00519159 /* FileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F528F2104C00519159 /* FileScanner.swift */; };
+		E2D9A8F828F2118D00519159 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F728F2118D00519159 /* Brain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundpoolBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D9A8DA28F20AF200519159 /* SoundpoolBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundpoolBrowserApp.swift; sourceTree = "<group>"; };
+		E2D9A8DC28F20AF200519159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2D9A8DE28F20AF300519159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D9A8E128F20AF300519159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2D9A8E328F20AF300519159 /* SoundpoolBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundpoolBrowser.entitlements; sourceTree = "<group>"; };
+		E2D9A8EB28F20CF200519159 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		E2D9A8ED28F20D3B00519159 /* HarmonyTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyTable.swift; sourceTree = "<group>"; };
+		E2D9A8EF28F20D5300519159 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		E2D9A8F128F20DF500519159 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		E2D9A8F528F2104C00519159 /* FileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileScanner.swift; sourceTree = "<group>"; };
+		E2D9A8F728F2118D00519159 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D9A8D428F20AF200519159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D9A8CE28F20AF200519159 = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8D928F20AF200519159 /* SoundpoolBrowser */,
+				E2D9A8D828F20AF200519159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D9A8D828F20AF200519159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D9A8D928F20AF200519159 /* SoundpoolBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8F428F2103300519159 /* Utils */,
+				E2D9A8EA28F20BD600519159 /* UI */,
+				E2D9A8E928F20BB300519159 /* Models */,
+				E2D9A8DA28F20AF200519159 /* SoundpoolBrowserApp.swift */,
+				E2D9A8DC28F20AF200519159 /* ContentView.swift */,
+				E2D9A8DE28F20AF300519159 /* Assets.xcassets */,
+				E2D9A8E328F20AF300519159 /* SoundpoolBrowser.entitlements */,
+				E2D9A8E028F20AF300519159 /* Preview Content */,
+			);
+			path = SoundpoolBrowser;
+			sourceTree = "<group>";
+		};
+		E2D9A8E028F20AF300519159 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8E128F20AF300519159 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2D9A8E928F20BB300519159 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8EB28F20CF200519159 /* Genre.swift */,
+				E2D9A8ED28F20D3B00519159 /* HarmonyTable.swift */,
+				E2D9A8EF28F20D5300519159 /* Instrument.swift */,
+				E2D9A8F128F20DF500519159 /* Scale.swift */,
+				E2D9A8F728F2118D00519159 /* Brain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2D9A8EA28F20BD600519159 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E2D9A8F428F2103300519159 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A8F528F2104C00519159 /* FileScanner.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D9A8D628F20AF200519159 /* SoundpoolBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D9A8E628F20AF300519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowser" */;
+			buildPhases = (
+				E2D9A8D328F20AF200519159 /* Sources */,
+				E2D9A8D428F20AF200519159 /* Frameworks */,
+				E2D9A8D528F20AF200519159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundpoolBrowser;
+			productName = SoundpoolBrowser;
+			productReference = E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D9A8CF28F20AF200519159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E2D9A8D628F20AF200519159 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E2D9A8D228F20AF200519159 /* Build configuration list for PBXProject "SoundpoolBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D9A8CE28F20AF200519159;
+			productRefGroup = E2D9A8D828F20AF200519159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D9A8D628F20AF200519159 /* SoundpoolBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D9A8D528F20AF200519159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D9A8E228F20AF300519159 /* Preview Assets.xcassets in Resources */,
+				E2D9A8DF28F20AF300519159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D9A8D328F20AF200519159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D9A8F028F20D5300519159 /* Instrument.swift in Sources */,
+				E2D9A8EC28F20CF200519159 /* Genre.swift in Sources */,
+				E2D9A8F828F2118D00519159 /* Brain.swift in Sources */,
+				E2D9A8DD28F20AF200519159 /* ContentView.swift in Sources */,
+				E2D9A8DB28F20AF200519159 /* SoundpoolBrowserApp.swift in Sources */,
+				E2D9A8F628F2104C00519159 /* FileScanner.swift in Sources */,
+				E2D9A8F228F20DF500519159 /* Scale.swift in Sources */,
+				E2D9A8EE28F20D3B00519159 /* HarmonyTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2D9A8E428F20AF300519159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2D9A8E528F20AF300519159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E2D9A8E728F20AF300519159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoundpoolBrowser/SoundpoolBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundpoolBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2D9A8E828F20AF300519159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoundpoolBrowser/SoundpoolBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundpoolBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D9A8D228F20AF200519159 /* Build configuration list for PBXProject "SoundpoolBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D9A8E428F20AF300519159 /* Debug */,
+				E2D9A8E528F20AF300519159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D9A8E628F20AF300519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D9A8E728F20AF300519159 /* Debug */,
+				E2D9A8E828F20AF300519159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D9A8CF28F20AF200519159 /* Project object */;
+}
