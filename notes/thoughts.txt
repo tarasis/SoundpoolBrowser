@@ -5,3 +5,7 @@
 
 ---
 
+show waveform? https://www.audiokit.io/AudioKitUI/documentation/audiokitui/waveform
+
+https://www.audiokit.io/Waveform/documentation/waveform
+https://github.com/AudioKit/Waveform/

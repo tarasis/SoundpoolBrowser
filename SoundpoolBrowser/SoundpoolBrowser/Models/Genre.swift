@@ -18,3 +18,16 @@ import Foundation
  date liked: date
  date scanned: date
  */
+
+struct Genre {
+    var name: String
+    var volumeNumber: Int
+    var tempo: Int
+    var scale: Scale
+    var sampleKey: [Int: Scale]
+    var liked: Bool
+    var dateLiked: Date
+    var dateScanned: Date
+
+    var categories: Category
+}

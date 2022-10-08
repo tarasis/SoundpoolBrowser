@@ -17,6 +17,8 @@
 		E2D9A8F228F20DF500519159 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F128F20DF500519159 /* Scale.swift */; };
 		E2D9A8F628F2104C00519159 /* FileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F528F2104C00519159 /* FileScanner.swift */; };
 		E2D9A8F828F2118D00519159 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F728F2118D00519159 /* Brain.swift */; };
+		E2D9A8FA28F21B0B00519159 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F928F21B0B00519159 /* Category.swift */; };
+		E2D9A8FD28F2207B00519159 /* Waveform in Frameworks */ = {isa = PBXBuildFile; productRef = E2D9A8FC28F2207B00519159 /* Waveform */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,7 @@
 		E2D9A8F128F20DF500519159 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		E2D9A8F528F2104C00519159 /* FileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileScanner.swift; sourceTree = "<group>"; };
 		E2D9A8F728F2118D00519159 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		E2D9A8F928F21B0B00519159 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D9A8FD28F2207B00519159 /* Waveform in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +96,7 @@
 				E2D9A8EF28F20D5300519159 /* Instrument.swift */,
 				E2D9A8F128F20DF500519159 /* Scale.swift */,
 				E2D9A8F728F2118D00519159 /* Brain.swift */,
+				E2D9A8F928F21B0B00519159 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +132,9 @@
 			dependencies = (
 			);
 			name = SoundpoolBrowser;
+			packageProductDependencies = (
+				E2D9A8FC28F2207B00519159 /* Waveform */,
+			);
 			productName = SoundpoolBrowser;
 			productReference = E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +163,9 @@
 				Base,
 			);
 			mainGroup = E2D9A8CE28F20AF200519159;
+			packageReferences = (
+				E2D9A8FB28F2207B00519159 /* XCRemoteSwiftPackageReference "Waveform" */,
+			);
 			productRefGroup = E2D9A8D828F20AF200519159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -186,6 +197,7 @@
 				E2D9A8F828F2118D00519159 /* Brain.swift in Sources */,
 				E2D9A8DD28F20AF200519159 /* ContentView.swift in Sources */,
 				E2D9A8DB28F20AF200519159 /* SoundpoolBrowserApp.swift in Sources */,
+				E2D9A8FA28F21B0B00519159 /* Category.swift in Sources */,
 				E2D9A8F628F2104C00519159 /* FileScanner.swift in Sources */,
 				E2D9A8F228F20DF500519159 /* Scale.swift in Sources */,
 				E2D9A8EE28F20D3B00519159 /* HarmonyTable.swift in Sources */,
@@ -384,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2D9A8FB28F2207B00519159 /* XCRemoteSwiftPackageReference "Waveform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Waveform/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2D9A8FC28F2207B00519159 /* Waveform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2D9A8FB28F2207B00519159 /* XCRemoteSwiftPackageReference "Waveform" */;
+			productName = Waveform;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2D9A8CF28F20AF200519159 /* Project object */;
 }

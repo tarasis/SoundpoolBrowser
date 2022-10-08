@@ -1,4 +1,4 @@
-so for "Soundpool DVD Collection 17", contains folder of ...
+so for "Soundpool DVD Collection 17", contains folder of ... Genre / Collection / Style?
 
 'Breakbeat Vol. 1'			'Chillout Vol. 5'
 'DanceElectro Vol. 9'		'Dubstep Vol. 1'
@@ -6,63 +6,30 @@ so for "Soundpool DVD Collection 17", contains folder of ...
 'Minimal DeepHouse Vol. 9'	'MovieScore Vol. 8'
 'RockAlternative Vol. 3'	'TechnoTrance Vol. 13'
 
-----
-
-[Soundpool DVD Collection 17]$ ls Jazz\ Vol.\ 1/
+[Soundpool DVD Collection 17]$ ls Jazz\ Vol.\ 1/ ... Instrument / Category
 
 Bass		BPM.inf		Brass
 Drums		Guitar		Keys
 Piano		Synth		Vocals
 
----
-
-[Soundpool DVD Collection 17]$ ls -la Jazz\ Vol.\ 1/Synth/
--rw-r--r--  1 rob rob 707348 Jul 16  2010 'k_Echoes A 1.wav'
--rw-r--r--  1 rob rob 707390 Jul 16  2010 'k_Echoes A 2.wav'
--rw-r--r--  1 rob rob 707390 Jul 16  2010 'k_Echoes A 3.wav'
--rw-r--r--  1 rob rob 707348 Jul 16  2010 'k_Echoes A 4.wav'
--rw-r--r--  1 rob rob 707390 Jul 16  2010 'k_Echoes A 5.wav'
--rw-r--r--  1 rob rob 707558 Jul 16  2010 'k_Echoes A 6.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 1.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 2.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 3.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 4.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 5.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Glass 6.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 1.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 2.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 3.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 4.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 5.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Melody B 6.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 1.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 2.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 3.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 4.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 5.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Pad A 6.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 1.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 2.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 3.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 4.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 5.wav'
--rw-r--r--  1 rob rob 706714 Jul 16  2010 'k_Whistle A 6.wav'
+[Soundpool DVD Collection 17]$ ls -la Jazz\ Vol.\ 1/Synth/ ... Instrument / Sample
+'k_Echoes A 1.wav'		'k_Echoes A 2.wav'		'k_Echoes A 3.wav'
+'k_Echoes A 4.wav'		'k_Echoes A 5.wav'		'k_Echoes A 6.wav'
+'k_Glass 1.wav'			'k_Glass 2.wav'			'k_Glass 3.wav'
+'k_Glass 4.wav'			'k_Glass 5.wav'			'k_Glass 6.wav'
+....
 
 ---
 
 Other file examples of files ...
 
--rw-r--r--  1 rob rob  353914 Jul 16  2010 'o_Tremolo 6.wav'
--rw-r--r--  1 rob rob 1412738 Jul 16  2010 'w_Ballad A 1.wav'
+'o_Tremolo 6.wav'		'w_Ballad A 1.wav'		'k_Whistle A 6.wav'
 
-'Umber Horns 1.wav'
-'Umber Horns 2.wav'
-'Umber Horns 3.wav'
-'Umber Horns 4.wav'
--rw-rw----  1 deluge deluge 1059504 Oct  8 18:26 'Umber Horns 5.wav'
--rw-rw----  1 deluge deluge 1059504 Oct  8 18:15 'Umber Horns 6.wav'
--rw-rw----  1 deluge deluge 1059504 Oct  8 18:15 'Umber Horns 7.wav'
+---
 
+'Umber Horns 1.wav'		'Umber Horns 2.wav'		'Umber Horns 3.wav'
+'Umber Horns 4.wav'		'Umber Horns 5.wav'		'Umber Horns 6.wav'
+'Umber Horns 7.wav'
 
 'Beige Bass 1.wav'	   'Gamboge BassA 6.wav'      'Limerick ViolinsA 4.wav'  'Orange Basses 2.wav'	 'Orchid Strings 7.wav'     'Viridian Pizz 5.wav'
 'Beige Bass 2.wav'	   'Gamboge BassA 7.wav'      'Limerick ViolinsA 5.wav'  'Orange Basses 3.wav'	 'Orchid Violins 1.wav'     'Viridian Pizz 6.wav'

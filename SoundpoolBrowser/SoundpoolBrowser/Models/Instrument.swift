@@ -16,3 +16,13 @@ import Foundation
  date liked: date
  length: number (seconds)
  */
+
+struct Instrument {
+    var name: String
+    var number: Int
+    var scale: Scale
+    var location: String
+    var liked: Bool
+    var dateLiked: Date
+    var length: Float
+}
