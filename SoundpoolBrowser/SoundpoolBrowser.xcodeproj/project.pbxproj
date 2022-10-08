@@ -20,7 +20,27 @@
 		E2D9A8FA28F21B0B00519159 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8F928F21B0B00519159 /* Category.swift */; };
 		E2D9A8FD28F2207B00519159 /* Waveform in Frameworks */ = {isa = PBXBuildFile; productRef = E2D9A8FC28F2207B00519159 /* Waveform */; };
 		E2D9A8FF28F2242400519159 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A8FE28F2242400519159 /* Sample.swift */; };
+		E2D9A90728F232B700519159 /* SoundpoolBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A90628F232B700519159 /* SoundpoolBrowserUITests.swift */; };
+		E2D9A90928F232B700519159 /* SoundpoolBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A90828F232B700519159 /* SoundpoolBrowserUITestsLaunchTests.swift */; };
+		E2D9A91628F232CF00519159 /* SoundpoolBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9A91528F232CF00519159 /* SoundpoolBrowserTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D9A90A28F232B700519159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D9A8CF28F20AF200519159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D9A8D628F20AF200519159;
+			remoteInfo = SoundpoolBrowser;
+		};
+		E2D9A91728F232CF00519159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D9A8CF28F20AF200519159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D9A8D628F20AF200519159;
+			remoteInfo = SoundpoolBrowser;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundpoolBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +57,11 @@
 		E2D9A8F728F2118D00519159 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		E2D9A8F928F21B0B00519159 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E2D9A8FE28F2242400519159 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		E2D9A90428F232B700519159 /* SoundpoolBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundpoolBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D9A90628F232B700519159 /* SoundpoolBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundpoolBrowserUITests.swift; sourceTree = "<group>"; };
+		E2D9A90828F232B700519159 /* SoundpoolBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundpoolBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2D9A91328F232CF00519159 /* SoundpoolBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundpoolBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D9A91528F232CF00519159 /* SoundpoolBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundpoolBrowserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +73,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2D9A90128F232B700519159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D9A91028F232CF00519159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				E2D9A8D928F20AF200519159 /* SoundpoolBrowser */,
+				E2D9A90528F232B700519159 /* SoundpoolBrowserUITests */,
+				E2D9A91428F232CF00519159 /* SoundpoolBrowserTests */,
 				E2D9A8D828F20AF200519159 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */,
+				E2D9A90428F232B700519159 /* SoundpoolBrowserUITests.xctest */,
+				E2D9A91328F232CF00519159 /* SoundpoolBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +162,23 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		E2D9A90528F232B700519159 /* SoundpoolBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A90628F232B700519159 /* SoundpoolBrowserUITests.swift */,
+				E2D9A90828F232B700519159 /* SoundpoolBrowserUITestsLaunchTests.swift */,
+			);
+			path = SoundpoolBrowserUITests;
+			sourceTree = "<group>";
+		};
+		E2D9A91428F232CF00519159 /* SoundpoolBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9A91528F232CF00519159 /* SoundpoolBrowserTests.swift */,
+			);
+			path = SoundpoolBrowserTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +202,42 @@
 			productReference = E2D9A8D728F20AF200519159 /* SoundpoolBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2D9A90328F232B700519159 /* SoundpoolBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D9A90C28F232B700519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowserUITests" */;
+			buildPhases = (
+				E2D9A90028F232B700519159 /* Sources */,
+				E2D9A90128F232B700519159 /* Frameworks */,
+				E2D9A90228F232B700519159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D9A90B28F232B700519159 /* PBXTargetDependency */,
+			);
+			name = SoundpoolBrowserUITests;
+			productName = SoundpoolBrowserUITests;
+			productReference = E2D9A90428F232B700519159 /* SoundpoolBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E2D9A91228F232CF00519159 /* SoundpoolBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D9A91928F232CF00519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowserTests" */;
+			buildPhases = (
+				E2D9A90F28F232CF00519159 /* Sources */,
+				E2D9A91028F232CF00519159 /* Frameworks */,
+				E2D9A91128F232CF00519159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D9A91828F232CF00519159 /* PBXTargetDependency */,
+			);
+			name = SoundpoolBrowserTests;
+			productName = SoundpoolBrowserTests;
+			productReference = E2D9A91328F232CF00519159 /* SoundpoolBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +250,14 @@
 				TargetAttributes = {
 					E2D9A8D628F20AF200519159 = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					E2D9A90328F232B700519159 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E2D9A8D628F20AF200519159;
+					};
+					E2D9A91228F232CF00519159 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E2D9A8D628F20AF200519159;
 					};
 				};
 			};
@@ -174,6 +278,8 @@
 			projectRoot = "";
 			targets = (
 				E2D9A8D628F20AF200519159 /* SoundpoolBrowser */,
+				E2D9A90328F232B700519159 /* SoundpoolBrowserUITests */,
+				E2D9A91228F232CF00519159 /* SoundpoolBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +291,20 @@
 			files = (
 				E2D9A8E228F20AF300519159 /* Preview Assets.xcassets in Resources */,
 				E2D9A8DF28F20AF300519159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D9A90228F232B700519159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D9A91128F232CF00519159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +328,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2D9A90028F232B700519159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D9A90728F232B700519159 /* SoundpoolBrowserUITests.swift in Sources */,
+				E2D9A90928F232B700519159 /* SoundpoolBrowserUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D9A90F28F232CF00519159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D9A91628F232CF00519159 /* SoundpoolBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D9A90B28F232B700519159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D9A8D628F20AF200519159 /* SoundpoolBrowser */;
+			targetProxy = E2D9A90A28F232B700519159 /* PBXContainerItemProxy */;
+		};
+		E2D9A91828F232CF00519159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D9A8D628F20AF200519159 /* SoundpoolBrowser */;
+			targetProxy = E2D9A91728F232CF00519159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E2D9A8E428F20AF300519159 /* Debug */ = {
@@ -378,6 +528,72 @@
 			};
 			name = Release;
 		};
+		E2D9A90D28F232B700519159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoundpoolBrowser;
+			};
+			name = Debug;
+		};
+		E2D9A90E28F232B700519159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoundpoolBrowser;
+			};
+			name = Release;
+		};
+		E2D9A91A28F232CF00519159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundpoolBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundpoolBrowser";
+			};
+			name = Debug;
+		};
+		E2D9A91B28F232CF00519159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VE7YM5VVJB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tarasis.SoundpoolBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundpoolBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundpoolBrowser";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -395,6 +611,24 @@
 			buildConfigurations = (
 				E2D9A8E728F20AF300519159 /* Debug */,
 				E2D9A8E828F20AF300519159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D9A90C28F232B700519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D9A90D28F232B700519159 /* Debug */,
+				E2D9A90E28F232B700519159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D9A91928F232CF00519159 /* Build configuration list for PBXNativeTarget "SoundpoolBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D9A91A28F232CF00519159 /* Debug */,
+				E2D9A91B28F232CF00519159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
